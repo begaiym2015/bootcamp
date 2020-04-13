@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    width: 70%;
+    background-color: cornflowerblue;
+}
+.inputForm{
+    
+   border: 1px solid black;
+    width: 50%;
+    background-color: blueviolet;
+}
+.showerForm{
+  
+    width: 30%;
+    border: 1px solid red;
+    
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    position: relative;
+    padding-top: 1.5rem;
+   }
+   
+   label {
+    position: absolute;
+    top: 0;
+    font-size: var(--font-size-small);
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.2s ease-out;
+   }
+   
+   input:placeholder-shown + label {
+    opacity: 0;
+    transform: translateX(3rem);
+   }
+   .form-group{
+       margin: 20px;
+   }

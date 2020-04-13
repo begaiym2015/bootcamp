@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.second_team{
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+.inputForm{
+    border: 2px solid grey;
+    margin: 60px;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+    width: 700px;
+   
+}
+.searchDiv{
+    text-align: center;
+   
+}
+.container{
+    
+    text-align: center;
+}
+.liListC{
+    list-style-type: none;
+}
+
+table{
+    margin-left: 75px;
+    padding: 15px;
+}
+td input{
+    width: 80px;
+    
+}
+.add{
+    padding: 5px;
+}
+

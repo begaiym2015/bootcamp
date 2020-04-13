@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <input class="inp" type="text">
+    <h1>Press key</h1>
+    
+   <!-- <div style="background-color: blue;">
+       <p class="p1" style="background-color: red;">
+           <button class="btn1">btn1</button>
+       </p>
+       <p class="p2" style="background-color: green;">
+           <button class="btn2">btn2</button>
+       </p>
+   </div> -->
+<script>
+    let btn1 = document.querySelector('.btn1');
+    let p1 = document.querySelector('.p1');
+    let div = document.querySelector('div');
+//     btn1.addEventListener('click',function(event){
+//         if(this !==event.target)return
+//         alert('btn1 click');
+//         // console.log(this, event.target,event.currentTarget);
+//     })
+   
+//    p1.addEventListener('click',function(){
+//     if(this !==event.target)return
+//     alert('p1 click');
+//         // console.log(this, event.target,event.currentTarget);
+//     })
+    
+//     div.addEventListener('click',function(){
+//         if(this !==event.target)return
+//         alert('div click')
+//         // console.log(this, event.target,event.currentTarget);
+//     })
+
+// window.addEventListener('mousemove',function(e){
+//     console.log('X:' + e.clientX, 'Y:' + e.clientY);
+// })
+// div.addEventListener('mousemove', function(e){
+//     e.stopPropagation();
+// })
+
+// let ev = new Event('click');
+// btn1.addEventListener('click',function(e){
+//     // console.log(e===ev)
+//     alert('CLICK');
+// });
+//  btn1.dispatchEvent(ev);
+let h1=document.querySelector('h1');
+let inp = document.querySelector('input');
+window.addEventListener('input',function(e){
+    h1.innerText += e.target.value
+    // console.log(e);
+})
+
+</script>
+
+    
+</body>
+</html>

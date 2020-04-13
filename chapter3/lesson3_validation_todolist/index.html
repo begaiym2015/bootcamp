@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- -------------валидация формы---------------- -->
+
+    <!-- <div class="wrapper">
+        <div class="container">
+            <div class="auth-form">
+                <div class="field">
+                    <span>Имя:</span>
+                    <input type="text">
+                </div>
+                <div class="field">
+                    <span>Фамилия:</span>
+                    <input type="text">
+                </div>
+                <div class="field">
+                    <span>Email:</span>
+                    <input type="text">
+                </div>
+                <div class="field">
+                    <span>Пароль:</span>
+                    <input type="password">
+                </div>
+                <div class="field">
+                    <button>Sing Up</button>
+                </div>
+             
+            </div>
+        </div>
+        <div class="container">
+            <ul class="user-list">
+                        
+            </ul>
+        </div>
+    </div> -->
+
+
+<!-- -----------------------TO DO LIST----------------- -->
+<form
+id="form"
+ method="POST" 
+action=" http://localhost:8000/users"
+class="d-flex-column align-items">
+    <input type="text" name="name" placeholder="Имя">
+    <input type="text" name="lastname" placeholder="Фамилия">
+    <input type="text" name="phone" placeholder="Номер">
+    <input type="text" name="email" placeholder="Email">
+    <input type="submit" value="submit" class="btn">
+</form>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>LastName</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody class="tbody">
+            <!-- <tr>
+                <td>Emir</td>
+                <td>Emir</td>
+                <td>Emir</td>
+                <td>Emir</td>
+                <td>Emir</td>
+            </tr> -->
+        </tbody>
+    </table>
+    <script src="./js/main.js"></script>
+</body>
+</html>

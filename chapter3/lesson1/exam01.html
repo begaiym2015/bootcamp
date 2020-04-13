@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="hello">
+        <h2>I am invisible, man</h2>
+    </div>
+    <script>
+        var sample = document.getElementById('hello');
+        console.log(sample);
+
+        // sample.innerHTML = '<h1>Hello world</h1>';
+        sample.innerText = '<h1>Hello world</h1>';
+    </script>
+</body>
+</html>

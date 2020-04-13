@@ -1,0 +1,100 @@
+{
+  "students": [
+    {
+      "name": "Vega",
+      "group": "JS",
+      "course": "7",
+      "one": "10",
+      "two": "100",
+      "three": "100",
+      "four": "100",
+      "five": "100",
+      "six": "100",
+      "id": 1
+    },
+    {
+      "name": "Kim",
+      "group": "undefined",
+      "course": "undefined",
+      "one": "10",
+      "two": "10",
+      "three": "10",
+      "four": "10",
+      "five": "10",
+      "six": "10",
+      "id": 2
+    },
+    {
+      "name": "Nina",
+      "group": "JS",
+      "course": "1",
+      "one": "10",
+      "two": "10",
+      "three": "10",
+      "four": "10",
+      "five": "10",
+      "six": "10",
+      "id": 3
+    },
+    {
+      "name": "Gena",
+      "group": "Js",
+      "course": "4",
+      "one": "10",
+      "two": "10",
+      "three": "10",
+      "four": "10",
+      "five": "10",
+      "six": "10",
+      "id": 4
+    },
+    {
+      "name": "Kiki",
+      "group": "JS",
+      "course": "4",
+      "one": "10",
+      "two": "10",
+      "three": "10",
+      "four": "10",
+      "five": "10",
+      "six": "10",
+      "id": 6
+    },
+    {
+      "name": "Mumu",
+      "group": "JS",
+      "course": "4",
+      "one": "10",
+      "two": "10",
+      "three": "10",
+      "four": "10",
+      "five": "10",
+      "six": "10",
+      "id": 7
+    },
+    {
+      "name": "Mara",
+      "group": "JS",
+      "course": "1",
+      "one": "10",
+      "two": "10",
+      "three": "10",
+      "four": "10",
+      "five": "10",
+      "six": "10",
+      "id": 8
+    },
+    {
+      "name": "Nini",
+      "group": "JS",
+      "course": "4",
+      "one": "10",
+      "two": "10",
+      "three": "10",
+      "four": "0",
+      "five": "0",
+      "six": "0",
+      "id": 9
+    }
+  ]
+}

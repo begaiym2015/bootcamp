@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .alert {
+      padding: 15px;
+      border: 1px solid #d6e9c6;
+      border-radius: 4px;
+      color: #3c763d;
+      background-color: #dff0d8;
+    }
+    </style>
+</head>
+<body>
+    <h3>Thid is my page</h3>
+    <script>
+        var div = document.createElement('div');
+        div.className = 'alert alert-succses';
+        div.innerHTML = '<strong>Hey!</strong> An important message for you';
+
+        document.body.insertBefore(div,document.body.firstChild);
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #blueParaph{
+            color: blue;
+        }
+        .active{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: #000000;
+        }
+    </style>
+</head>
+<body>
+    <p id="blueParaph" class="old-class">This is blue text</p>
+    <script>
+        var paraph = document.querySelector("#blueParaph");
+        // paraph.style.color = 'red';
+        // paraph.className = 'active';
+        paraph.classList.add('active');
+        paraph.classList.remove('active');
+        paraph.classList.toggle('active');
+        paraph.classList.toggle('active');
+
+
+    </script>
+</body>
+</html>
